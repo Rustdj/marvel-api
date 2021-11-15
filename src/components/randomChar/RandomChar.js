@@ -6,11 +6,6 @@ import ErrorMessage from '../errorMessage/errorMessage';
 import MarvelService from '../../services/MarvelService';
 
 class RandomChar extends Component {
-    constructor(props) {
-        super(props);
-        this.updateChar();
-    }
-
     state = {
         char: {},
         loading: true,
@@ -18,6 +13,15 @@ class RandomChar extends Component {
     }
 
     marvelService = new MarvelService();
+
+    componentDidMount() {
+        this.updateChar();
+        //this.timeId = setInterval(this.updateChar, 3000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timeId);
+    }
 
     onCharLoaded = (char) => {
         this.setState({
@@ -34,7 +38,6 @@ class RandomChar extends Component {
     }
 
     updateChar = () => {
-        debugger;
         const id = Math.floor(Math.random() * (1011400 - 1011000) + 1011000);
         this.marvelService
             .getCharacters(id)
@@ -68,6 +71,16 @@ class RandomChar extends Component {
                 </div>
             </div>
         )
+    }
+
+
+    renderItems(arr) {
+        const items = arr.map((item) => {
+            let imgStyle = {'objectFit' : 'cover'};
+            if (item.thumbnail === 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg') {
+                imgStyle = {'objectFit' : 'contain'};
+            }
+        })
     }
 }
 
