@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Rustdj/marvel-api/static/css/main.65106755.chunk.css",
+    "main.js": "/Rustdj/marvel-api/static/js/main.11784008.chunk.js",
+    "main.js.map": "/Rustdj/marvel-api/static/js/main.11784008.chunk.js.map",
+    "runtime-main.js": "/Rustdj/marvel-api/static/js/runtime-main.313f94e7.js",
+    "runtime-main.js.map": "/Rustdj/marvel-api/static/js/runtime-main.313f94e7.js.map",
+    "static/js/2.b96fcf13.chunk.js": "/Rustdj/marvel-api/static/js/2.b96fcf13.chunk.js",
+    "static/js/2.b96fcf13.chunk.js.map": "/Rustdj/marvel-api/static/js/2.b96fcf13.chunk.js.map",
+    "index.html": "/Rustdj/marvel-api/index.html",
+    "static/css/main.65106755.chunk.css.map": "/Rustdj/marvel-api/static/css/main.65106755.chunk.css.map",
+    "static/js/2.b96fcf13.chunk.js.LICENSE.txt": "/Rustdj/marvel-api/static/js/2.b96fcf13.chunk.js.LICENSE.txt",
+    "static/media/abyss.93d211d3.jpg": "/Rustdj/marvel-api/static/media/abyss.93d211d3.jpg",
+    "static/media/error.42292aa1.gif": "/Rustdj/marvel-api/static/media/error.42292aa1.gif",
+    "static/media/mjolnir.61f31e18.png": "/Rustdj/marvel-api/static/media/mjolnir.61f31e18.png",
+    "static/media/thor.533e3a5e.jpeg": "/Rustdj/marvel-api/static/media/thor.533e3a5e.jpeg",
+    "static/media/vision.067d4ae1.png": "/Rustdj/marvel-api/static/media/vision.067d4ae1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.313f94e7.js",
+    "static/js/2.b96fcf13.chunk.js",
+    "static/css/main.65106755.chunk.css",
+    "static/js/main.11784008.chunk.js"
+  ]
+}
