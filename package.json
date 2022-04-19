@@ -36,10 +36,19 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "sass": "^1.38.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rustdj/marvel-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rustdj/marvel-api/issues"
+  },
+  "homepage": "https://github.com/Rustdj/marvel-api"
 }
